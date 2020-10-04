@@ -1,0 +1,67 @@
+/* -------------------------------------------------------------
+	© IceTheme 2013
+---------------------------------------------------------------- */
+
+
+
+/* "left" Modules */	
+#sidebar .sidebar_module {
+	clear:both;
+	background:#6A6770;
+	color:#fff;
+	padding:15px;
+	margin-bottom:20px;}
+	
+	#sidebar .sidebar_module a {
+		color:rgb(204, 104, 72);}
+		
+	#sidebar > .sidebar_module:last-child { margin-bottom:0}
+	
+	#sidebar .sidebar_module h3.sidebar_module_heading {
+		margin: 0 0 14px;
+		display:inline-block;
+		border-bottom:5px solid #98969e;
+		padding:0;
+		color:#fff;}
+
+
+	#sidebar .sidebar_module_style1 {
+		background:#70676c;}
+		#sidebar .sidebar_module_style1 h3.sidebar_module_heading {
+			border-color:#9e969a}
+	
+	
+	#sidebar .sidebar_module_style2 {
+		background:#717168;}
+		#sidebar .sidebar_module_style2 h3.sidebar_module_heading {
+			border-color:#9f9f97}
+			
+
+
+
+
+/* "footer" modules */
+#footer .moduletable {
+	margin-bottom:30px;}
+
+	#footer .moduletable h3 {
+		font-size:20px;
+		display:inline-block;
+		border-bottom:3px solid #B7B7AB;
+		line-height:32px;
+		padding:0 0 1px;
+		margin:0 0 10px}
+	
+	#footer .moduletable img {
+		float:left;
+		margin:0 15px 15px 0}
+
+
+
+
+
+
+/* promo and bottom modules */
+
+
+

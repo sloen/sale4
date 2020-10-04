@@ -1,0 +1,167 @@
+/* -------------------------------------------------------------
+	© IceTheme 2013
+---------------------------------------------------------------- */
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+	#sidebar { width:300px;}
+	#content { width:840px;}
+	
+		#tagline { font-size:32px; line-height:48px;}
+			#tagline p { padding-top:10px;}
+				
+				
+		#promo .span3 { width: 178px;}
+		#promo .span4 { width: 250px;}	
+		#promo .span6 { width: 390px;}	
+		#promo .span12 { width: 810px;}	
+		
+		#bottom .span3 { width: 258px;}
+		#bottom .span4 { width: 354px;}	
+		#bottom .span6 { width: 546x;}	
+		#bottom .span12 { width: 1115px;}	
+			
+		
+	#banner .banneritem { width:47.8%; margin-bottom:0}
+		
+		
+			
+}
+
+
+
+@media (max-width: 1200px) {
+	
+	.banner1 { margin-bottom:15px}
+	
+}
+
+
+
+	
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {
+	
+	#sidebar { width: 100%; height:auto!important; min-height:auto; margin-bottom:30px;}
+	
+	#content { width:100%; height:auto!important; min-height:auto; margin-top:0; margin-bottom:30px;}
+	
+	#bottom .span4 { width:330px;}
+	
+	
+	#promo .span3 { width: 98%;}
+	#promo .span4 { width: 98%;}	
+	#promo .span6 { width: 98%;}	
+	#promo .span12 { width: 98%;}	
+	
+	#bottom .span3 { width: 96%;}
+	#bottom .span4 { width: 96%;}	
+	#bottom .span6 { width: 96%;}	
+	#bottom .span12 { width: 96%;}
+	
+	#footer .span3 { width: 98%;}
+	#footer .span4 { width: 98%;}	
+	#footer .span6 { width: 98%;}	
+	#footer .span12 { width: 98%;}		
+
+	
+	#footer p#icelogo {
+		float: none;
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+		text-align: center;}
+	
+	#footer p#copyright {
+		float: none;
+		padding-top: 20px;
+		display: block;
+		width: 100%;
+		text-align: center;}
+			
+	#copyrightmenu {
+		float: none;
+		display: block;
+		padding-top:6px;
+		text-align: center;}
+		#copyrightmenu ul li a { padding-left:10px; padding-right:10px;}
+		
+
+	#ice_social {
+		float:none;
+		clear:both;
+		width:100%;
+		text-align:center;
+		padding-top:35px;}
+		
+		#ice_social #social_tw { float:none; padding-bottom:10px; padding-left:0}
+		#ice_social #social_fb { float:none; padding-left:0}
+	
+		
+}
+
+
+@media (min-width: 767px) and (max-width: 979px) {
+	
+	form#login-form div.control-group { display:inline-block; padding-right: 12px;}
+		
+		form#login-form div#form-login-remember { margin-bottom: 0; width: 135px;}
+		
+		form#login-form ul.unstyled li { display: inline-block; padding-right: 40px;}
+
+}
+	
+	
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	ul#ice-switcher	{ display:none}
+	
+	
+	#tagline { padding:10px 20px; height: auto;}
+	
+		#tagline p {padding:0; margin:0;}
+	
+		#tagline:before,
+		#tagline:after { display:none}
+
+
+	#services .custom > div { width: 46%;}
+	
+	
+	#bottom { margin-left:-20px; margin-right:-20px; padding-left:20px; padding-right:20px;}
+	
+	#bottom .span3,
+	#bottom .span4,
+	#bottom .span6,
+	#bottom .span12 { margin:0 4%; width:92%}
+
+}
+
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	
+	#services .custom > div { width: 96%;}
+
+	.scrollup {
+		-webkit-transform:scale(.75);
+		-moz-transform: scale(.75);
+		-o-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+		bottom:10px;
+		left:42%;
+		display: block!important;
+		position:relative!important;}
+	
+	
+	body.offline_page .inputbox { width:auto}
+	
+	
+}

@@ -1,0 +1,134 @@
+/* -------------------------------------------------------------
+	© IceTheme 2013
+---------------------------------------------------------------- */
+
+/* 
+DO NOT DELETE THIS LINE
+Necessary to check if StyleSheet has loaded  */
+#dummy-element{width:2px;} 
+
+
+/* general.css */
+#sidebar {
+	background-color:#cc6848;
+    border-radius: 50px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+	
+body {
+    background-image: url("fon1.png") !important;
+	}
+	
+#tagline {
+	background-color:#E69F75;}
+	
+#tagline:before {
+	background:url("tagline_l8.png") no-repeat center;}
+	
+#tagline:after {
+	background:url("tagline_r8.png") no-repeat center;}
+	
+#bottom {
+	background-color:rgba(180, 185, 190, 0);
+	background-image:url("bottom_arrow_t.png"), url("bottom_arrow_b.png");}
+
+.button  {
+	background:#4A6D89;
+	border-left-color:#5E87A8;}
+	
+	.button:hover {
+		background-color:#5E87A8}
+		
+#copyright_area {
+	box-shadow: 0 -1px 0  #B4B9BE;}
+	
+body.offline_page #logo,
+	body.error_page #logo {
+		background-color:#B4B9BE;}
+
+blockquote {
+  background-color:#D0D3D6;
+  border-left-color:#A6ACB2;}
+	
+/* modules.css */
+#sidebar .sidebar_module {
+	background-color:#E69F75;}
+			
+	#sidebar .sidebar_module h3.sidebar_module_heading {
+		border-bottom-color:#CC6848;}
+		
+#sidebar .sidebar_module_style1 {
+	background-color:#e69f75;}
+		
+	#sidebar .sidebar_module_style1 h3.sidebar_module_heading {
+		border-color:#CC6848}
+			
+#sidebar .sidebar_module_style2 {
+	background-color:#7C989C;}
+		
+	#sidebar .sidebar_module_style2 h3.sidebar_module_heading {
+		border-color:#99AFB2}
+
+#footer .moduletable h3 {
+		border-bottom-color:#B4B9BE;}
+		
+.img1 {
+	background-image:url("")}
+	
+.img2 {
+	background-image:url("")}
+	
+.img3 {
+	background-image:url("")}
+			
+.service1 {
+	background-image:url("service_1.png")}
+	
+.service2 {
+	background-image:url("service_2.png")}
+	
+.service3 {
+	background-image:url("service_3.png")}
+	
+.service4 {
+	background-image:url("service_4.png")}
+	
+.service5 {
+	background-image:url("service_5.png")}
+	
+.service6 {
+	background-image:url("service_6.png")}
+	
+.service7 {
+	background-image:url("service_7.png")}
+	
+.service8 {
+	background-image:url("service_8.png")}
+	
+.service9 {
+	background-image:url("service_9.png")}
+	
+	
+	
+	
+/* default_icemegamenu.css */	
+.icemegamenu > ul > li:hover,
+.icemegamenu > ul > li.active {
+	background-color:#e69f75;
+    box-shadow: 0 0 05px rgba(0,0,0,0.5);
+    }
+
+.ice-megamenu-toggle a {
+    background-color:#D0D3D6;}
+	
+.ice-megamenu-toggle a:hover {
+	background-color:#D0D3D6;}
+
+ul.icesubMenu {
+    background-color:#cc6848;}
+	
+.icemegamenu > ul > li.active:before {
+	background-image:url("current_l2.png");}
+						
+.icemegamenu > ul > li.active:after {
+	background-image:url("current1.png");}
